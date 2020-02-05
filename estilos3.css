@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin-bottom: 20px;
+}
+.wrapper {
+  width: 100%;
+  margin: auto;
+  overflow:hidden;
+  background-color: #FF4B2B;
+}
+header {
+  background: black;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+  color: white;
+}
+nav ul li:hover {
+  background: red;
+}
+
+li.agenda{
+  margin-left: 350px;
+}
+
+.filtross{
+  margin-left: 100px;
+}
+
+.eusu{
+  height: 460px;
+  width: 380px;
+  background: linear-gradient(to right, #FF4B2B, #FF416C);
+  margin:20px 50px;
+  padding: 30px;
+  border:7px solid #000;
+  display: inline-block;
+  color: white;
+}
+
+
+
+table{
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2.5%;
+  margin-right: 0%
+}
+
+th, td{
+  padding: 20px;
+  color: black;
+  background-color: unset;
+}
+
+thead{
+  background-color: #FF4B2B;
+  color: white;
+  width: 100%;
+}
+
+tr:nth-child(even){
+  background-color: #FF4B2B;
+}
+
+tr:hover td{
+  background-color:#FFEFD5;
+  color: black;
+}
+
+select{
+  width: 150px;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+

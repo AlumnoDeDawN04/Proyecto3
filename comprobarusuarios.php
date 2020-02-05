@@ -2,7 +2,7 @@
 //Esto evitara que entremos como hackers
 include "conexion.php";
 if (!$_POST["user"] && !$_POST["pwd"]) {
-	header("location:login.php");
+	header("location:index.php");
 }else{
 	$name=$_POST["user"];
 	$pwd=$_POST["pwd"];
@@ -14,12 +14,9 @@ if (!$_POST["user"] && !$_POST["pwd"]) {
 		$row=mysqli_fetch_array($consulta);
 		session_start();
 		$_SESSION['id']=$row[0];
-		$id=$_SESSION['id'];
 		$_SESSION['nombre']=$name;
-		$nombre=$_SESSION['nombre'];
-		echo $id;
-		echo $nombre;
+		header("location:agenda.php");
 	}else{
-		header("location:login.php?error='error'");
+		header("location:index.php?error='error'");
 	}
 }

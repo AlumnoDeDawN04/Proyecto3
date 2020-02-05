@@ -1,0 +1,58 @@
+.letras{
+	height: 520px;
+	width: 300px;
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	margin:20px 50px;
+	padding: 30px;
+	border:7px solid #000;
+	display: inline-block;
+	color: white;
+	overflow-y: scroll;
+
+
+}
+
+.mapacontac{
+	height: 520px;
+	width: 300px;
+	margin:20px 50px;
+	padding: 30px;
+	display: inline-block;
+	color: white;	
+	margin-top: -22%;
+
+
+}
+
+
+a.aaa{
+	text-decoration:none;
+	color: white;
+	font-size: 18px;
+}
+
+
+.medio{
+	border:7px solid #000;
+	width: 300px;
+    height: 320px;
+    margin-top: -41.5%;
+
+}
+
+.ubicaciones{
+
+
+}
+
+.mapacontac2{
+	height: 520px;
+	width: 650px;
+	margin:20px 50px;
+	padding: 30px;
+	display: inline-block;
+	color: white;	
+	margin-top: -22%;
+    border:7px solid #000;
+
+}
